@@ -1,7 +1,5 @@
-"""Depósito positivo"""
-"""3 saques diários com limite de 500,00 por saque"""
-"""extrato listar os saques realizados"""
 
+'''Criando menu'''
 menu = """
 
 Bem vindo ao Banco G10bank
@@ -17,15 +15,15 @@ Qual funcao deseja utlizar?
 
 => """
 
-
+'''Inicializando as variáveis necessárias'''
 saldo = 0
 limite = 500
 extrato = ""
 qtda_saques = 0
 LIMITE_SAQUE = 3
 deposito = 0
-'''extrato += f"Deposito: R$ {valor:.2f}\n"'''
 
+'''While true para sempre que for verdade o laço continue iterando'''
 while True:
 
     opcao = int(input(menu))
