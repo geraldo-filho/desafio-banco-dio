@@ -1,5 +1,7 @@
 
 '''Criando menu'''
+
+
 menu = """
 
 Bem vindo ao Banco G10bank
